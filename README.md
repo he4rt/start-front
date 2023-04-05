@@ -2,7 +2,7 @@
 O start front da he4rt é o front do projeto de site que ajuda pessoas iniciantes na programação a encontrar mentores para ajudá-las a estudar. Este repositório contém o código fonte do site, desenvolvido com Next.js, Styled Components, ESLint, Prettier e TypeScript.
 
 ### Instalação
-Antes de começar, você precisa ter o Node.js e o gerenciador de pacotes Yarn instalados em sua máquina. Em seguida, siga os passos abaixo:
+Antes de começar, você precisa ter o Node.js e o gerenciador de pacotes NPM instalados em sua máquina. Em seguida, siga os passos abaixo:
 
 Clone este repositório:
 
@@ -19,14 +19,14 @@ cd start-front
 Instale as dependências do projeto:
 
 ````
-yarn install
+npm install
 
 ````
 
 Inicie o servidor de desenvolvimento:
 
 ````
-yarn dev
+npm run dev
 
 ````
 
@@ -57,7 +57,7 @@ cd start-front
 Instale as dependências do projeto:
 
 ````
-yarn install
+npm install
 
 ````
 

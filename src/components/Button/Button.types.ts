@@ -1,5 +1,4 @@
-
-export interface ButtonProps {
-    label: string;
-    onClick: () => void;
-}
+import { ButtonHTMLAttributes } from "react";
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+    label: string
+} 

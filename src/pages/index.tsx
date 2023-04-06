@@ -15,7 +15,7 @@ export default function Home() {
       <main>
 
         <S.Hero>Open  Start</S.Hero>
-        <Button>Pudim</Button>
+        <Button>Login</Button>
       </main>
     </>
   )

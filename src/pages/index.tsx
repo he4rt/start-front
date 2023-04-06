@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import * as S from '../styles/pages/Home'
+import { Button } from 'src/components/Button/style'
+
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+
         <S.Hero>Open  Start</S.Hero>
+        <Button>Login</Button>
       </main>
     </>
   )

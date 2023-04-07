@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Icon } from 'src/components/Icon'
 import * as S from '../styles/pages/Home'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <S.Hero>Open  Start</S.Hero>
+        <Icon aria-label='seta para direita na cor purple' src='arrow' width='30px'/>
       </main>
     </>
   )

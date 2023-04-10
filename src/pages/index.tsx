@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import * as S from '../styles/pages/Home'
 import { Button } from 'src/components/Button/style'
+import { Card } from 'src/components/Card/Card'
+
 
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-
+      <Card image='members' label={<span>Conheça os <S.TextHighlight>membros</S.TextHighlight> que fazem a He4rt acontecer</span>} />
+        <Card image='message' label={<span>Encontre <S.TextHighlight>mentores</S.TextHighlight> para conversar e tirar dúvidas</span>} />
+        <Card image='projects' label={<span>Participe de <S.TextHighlight>projetos</S.TextHighlight> para fortalecer seu portfóli</span>} />
         <S.Hero>Open  Start</S.Hero>
         <Button>Login</Button>
       </main>

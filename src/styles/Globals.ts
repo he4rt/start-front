@@ -1,12 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
   html,
   body {
     padding: 0;
     margin: 0;
-    background: black;
+    background: #160e13;
+;
     
     
   }
